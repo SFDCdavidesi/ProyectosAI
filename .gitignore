@@ -1,0 +1,11 @@
+# Bloquear absolutamente todo por defecto
+/*
+
+# Permitir excepciones (lo que sí queremos en GitHub)
+!solver-cuestionarios/
+!.gitignore
+
+# Pero dentro de la carpeta del proyecto, NO subir las claves ni imágenes
+solver-cuestionarios/.env
+solver-cuestionarios/*.png
+solver-cuestionarios/__pycache__/
