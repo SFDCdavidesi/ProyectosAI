@@ -1,0 +1,6 @@
+google-genai
+mss
+Pillow
+python-dotenv
+imagehash
+fpdf2
